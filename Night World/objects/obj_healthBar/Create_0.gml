@@ -1,0 +1,2 @@
+/// @description 
+drawHealth = 0;

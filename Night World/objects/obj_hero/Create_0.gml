@@ -1,6 +1,6 @@
 /// @description variables
-
-health_ = 5; 
+maxHealth = 10;
+health_ = maxHealth; 
 
 //Speed
 speed_= [0,0];

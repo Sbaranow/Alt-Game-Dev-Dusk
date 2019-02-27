@@ -1,17 +1,15 @@
 /// @description Movement
 
-//move force
+//move towards hero
 if instance_exists(obj_hero) {
 	var dir = point_direction(x, y, obj_hero.x, obj_hero.y);
-	speed_[h] = lengthdir_x(maxSpeed, dir);
-	speed_[v] = lengthdir_y(maxSpeed, dir);
-	move(speed_);
-
-	//push force
-	move(speedPush);
-	if !place_meeting(x, y, obj_flyingEnemy_Shoots) {
-		speedPush[h] = lerp(speedPush[h], 0, .1);
-		speedPush[v] = lerp(speedPush[v], 0, .1); 
+	speed_[h] += lengthdir_x(acceleration_, dir);
+	speed_[v] += lengthdir_y(acceleration_, dir);
+	if point_distance(0, 0, speed_[h], speed_[v]) > maxSpeed {
+		var moveDir = point_direction(0, 0, speed_[h], speed_[v])
+		//set to max speed
+		speed_[h] = lengthdir_x(maxSpeed, dir);
+		speed_[v] = lengthdir_y(maxSpeed, dir);
 	}
 
 	//death
@@ -21,6 +19,9 @@ if instance_exists(obj_hero) {
 
 	//Switch to Attack
 	if distance_to_object(obj_hero) < 48 {
-		state_ = ATTACK_;
+		enemyFire_bullet();
 	}
+	
+	enemyFire_bullet();
 }
+move(speed_, 1);

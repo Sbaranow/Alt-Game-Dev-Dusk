@@ -33,12 +33,13 @@ if !place_meeting(x, y+1, obj_solid) {
 }
 
 //Move script
-move(speed_);
+move(speed_, 0);
 
 //Check for Landing
 if place_meeting(x, y+1, obj_solid) and !place_meeting(x, yprevious+1, obj_solid) {
 	xScale = image_xscale*1.2; //wider
 	yScale = image_yscale*.9; //shorter
+
 }
 
 // move back to normal scale

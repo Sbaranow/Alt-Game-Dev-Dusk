@@ -7,11 +7,12 @@ if alarm[0] <= 0 {
 	//orgin position of the gun 
 	var gun_x = x-4*flipped;
 
-	var x_offset = lengthdir_x(14, dir)
-	var y_offset =lengthdir_y(14, dir)
+	var x_offset = lengthdir_x(8, dir)
+	var y_offset =lengthdir_y(10, dir)
 
 
 	var bullet = instance_create_layer(gun_x + x_offset, y-sprite_height/2+y_offset, "Instances", obj_bullet);
 	bullet.direction = dir;
+	bullet.image_angle = dir; //shoot in right direction
 	alarm [0] = bulletCooldown;
 }
