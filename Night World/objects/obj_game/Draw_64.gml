@@ -15,3 +15,7 @@ if paused_ {
 	draw_set_valign(fa_middle); //v
 	draw_text(guiWidth/2, guiHeight/2, "Paused Bitches");
 }
+
+draw_set_halign(fa_right);
+draw_text(display_get_gui_width()-6, 4, "Enemy Count " + string(score) + " /10" ); 
+draw_set_halign(fa_left);

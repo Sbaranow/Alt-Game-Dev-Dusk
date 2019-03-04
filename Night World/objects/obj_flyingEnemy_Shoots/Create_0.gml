@@ -5,7 +5,7 @@ maxSpeed = 2;
 health_ = 4;
 
 //bullet cooldown
-bulletCooldown = room_speed/1; //speed bullets to launch
+bulletCooldown = game_get_speed(gamespeed_fps); //speed bullets to launch
 alarm[0] = bulletCooldown;
 
 // STATES = User Event #

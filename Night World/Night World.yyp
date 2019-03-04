@@ -210,6 +210,25 @@
             }
         },
         {
+            "Key": "134869d4-9e61-4f69-b56d-2d6fd2cfc1c4",
+            "Value": {
+                "id": "16c5bd5e-524a-4df5-a56b-d1bee63009b9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_camera\/obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1eb1c2fb-68cc-42c1-91f6-eb328791e8d3",
             "Value": {
                 "id": "394d8dc9-fbad-4b71-91b7-c5fc76034b1f",
@@ -606,6 +625,25 @@
                 ],
                 "resourcePath": "sprites\/spr_autoTile\/spr_autoTile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6666cfe7-92d5-4b6e-87b1-7c8be34cd6bf",
+            "Value": {
+                "id": "dd28440d-daf4-4fa4-8fb3-71c774598767",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fnt_score\/fnt_score.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1084,6 +1122,25 @@
             }
         },
         {
+            "Key": "df4fbdc5-1888-433f-8d9e-d01f0f166386",
+            "Value": {
+                "id": "c9ffc9b2-1db5-4d61-bc3e-5dcd0b9986a1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/interval_off\/interval_off.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dfa0ffc7-b110-484b-b12c-22dd42e1ec83",
             "Value": {
                 "id": "602843b1-3352-4b53-804f-9e215f45a38c",
@@ -1372,7 +1429,8 @@
     "script_order": [
         "4d169926-e1ba-43da-8cf9-a9cc5ea3a900",
         "3ee56ba0-8376-49ec-b8bf-5fc356b826c4",
-        "e1217726-9f31-44cb-8745-eb57bdb7cff2"
+        "e1217726-9f31-44cb-8745-eb57bdb7cff2",
+        "df4fbdc5-1888-433f-8d9e-d01f0f166386"
     ],
     "tutorial": ""
 }
