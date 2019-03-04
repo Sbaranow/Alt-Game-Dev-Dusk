@@ -229,6 +229,25 @@
             }
         },
         {
+            "Key": "23b13a0f-8d1b-47aa-ad81-eaeac3a110d5",
+            "Value": {
+                "id": "77d9e134-2987-4c24-84ee-9e92a6860677",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/aud_death\/aud_death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "28bd339e-d18e-47b6-926f-7dbb99f240ea",
             "Value": {
                 "id": "1818693a-7088-4122-b909-b6f6893c9b5a",
@@ -400,6 +419,25 @@
             }
         },
         {
+            "Key": "46d2bd1f-5698-40a4-a6bb-895f61287e41",
+            "Value": {
+                "id": "8c2848e3-26d9-4f3b-989f-47fabaed0edd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/aud_laser\/aud_laser.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4d169926-e1ba-43da-8cf9-a9cc5ea3a900",
             "Value": {
                 "id": "6d266474-ba68-44a7-a705-e92375643eab",
@@ -549,6 +587,44 @@
                 ],
                 "resourcePath": "views\/7330be7e-dac0-4e05-a39f-454a8bb68cbb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7553999a-7b08-479f-9454-9f1da79fbb1c",
+            "Value": {
+                "id": "51ba3160-88f2-4990-8481-12213d786afc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/aud_laserEnemy\/aud_laserEnemy.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "76506583-6b80-4479-b2d7-c7bef99da62c",
+            "Value": {
+                "id": "bfa625bb-b15c-4bde-8df9-dbf38fd53f57",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/aud_hitWall\/aud_hitWall.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1027,6 +1103,25 @@
             }
         },
         {
+            "Key": "e4d97186-d8d7-47ca-9288-3125e06d8115",
+            "Value": {
+                "id": "ca487a35-c87f-496b-8664-d66afda311b4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_game\/obj_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e65e05a5-7531-4594-a68b-907ab02fdad8",
             "Value": {
                 "id": "110521d0-8304-4801-904d-f3d5d7df9565",
@@ -1157,6 +1252,25 @@
                 ],
                 "resourcePath": "sprites\/spr_gun\/spr_gun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fff125dd-d859-4955-8d83-760b42a93d35",
+            "Value": {
+                "id": "8065b94a-679d-4396-9971-1ef902c88c29",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/aud_hitHero\/aud_hitHero.yy",
+                "resourceType": "GMSound"
             }
         }
     ],
