@@ -1,4 +1,6 @@
 /// @description variables
+
+//health
 maxHealth = 10;
 health_ = maxHealth; 
 
@@ -6,6 +8,7 @@ health_ = maxHealth;
 speed_= [0,0];
 maxSpeed = 6;
 
+invincible_ = false;
 
 gravity_ = .5;
 acceleration_ = .75;
