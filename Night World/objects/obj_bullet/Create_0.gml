@@ -1,6 +1,6 @@
 ///Moves towards mouse
 
-speed = 8;
+speed = 10;
 direction = point_direction(x, y, mouse_x, mouse_y);
 
 //make it so the bullet doesn't go behind buildings
