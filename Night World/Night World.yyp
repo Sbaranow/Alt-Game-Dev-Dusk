@@ -1559,6 +1559,25 @@
             }
         },
         {
+            "Key": "b5950718-6c90-4893-8a89-fa212a96d6da",
+            "Value": {
+                "id": "1c3852d6-8239-4610-893e-563d3fa5fec3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_locked\/obj_locked.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b69db870-a4a4-4aaa-82de-9aae8592d60b",
             "Value": {
                 "id": "e04aca18-bc88-4122-b823-8f7b45f67f88",
@@ -1594,6 +1613,25 @@
                 ],
                 "resourcePath": "sprites\/spr_bg01\/spr_bg01.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc0f91f0-0ad3-4c2f-be7f-fc06b96ebb2a",
+            "Value": {
+                "id": "76bea416-eef7-4517-817d-c34f732587c7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/itemPickup\/itemPickup.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1689,6 +1727,25 @@
                 ],
                 "resourcePath": "sounds\/aud_heroLand\/aud_heroLand.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c51fa419-6870-4ba8-a594-af16ff897f94",
+            "Value": {
+                "id": "634a71a3-8cae-423b-a18d-37e956ba76d0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_Locked\/rm_Locked.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1939,6 +1996,25 @@
             }
         },
         {
+            "Key": "e4b41ea9-6c99-4f41-ad01-a66a20b0c678",
+            "Value": {
+                "id": "bc68c558-ef52-457c-941f-c819186ffebe",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/itemDrop\/itemDrop.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e4d97186-d8d7-47ca-9288-3125e06d8115",
             "Value": {
                 "id": "ca487a35-c87f-496b-8664-d66afda311b4",
@@ -1954,6 +2030,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/obj_game\/obj_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e530ede0-fa1b-4deb-999d-efc42d5ae7d1",
+            "Value": {
+                "id": "07fd638a-d8df-4104-a7ad-93aba328d8c3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_inventory\/obj_inventory.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2167,6 +2262,25 @@
             }
         },
         {
+            "Key": "f73893a5-d266-4eb3-9a25-e523cb3275e8",
+            "Value": {
+                "id": "d03e4c90-90f9-43f4-bac0-d4cda5b35b1b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_locked\/spr_locked.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f7ca3892-016b-4724-a8fd-dc0672758d91",
             "Value": {
                 "id": "7b1c4156-c7fb-4f38-85a3-daa729e340b8",
@@ -2244,6 +2358,8 @@
         }
     ],
     "script_order": [
+        "bc0f91f0-0ad3-4c2f-be7f-fc06b96ebb2a",
+        "e4b41ea9-6c99-4f41-ad01-a66a20b0c678",
         "4d169926-e1ba-43da-8cf9-a9cc5ea3a900",
         "3ee56ba0-8376-49ec-b8bf-5fc356b826c4",
         "e1217726-9f31-44cb-8745-eb57bdb7cff2",

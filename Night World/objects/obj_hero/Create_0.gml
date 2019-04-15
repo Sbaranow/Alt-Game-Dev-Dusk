@@ -6,14 +6,14 @@ health_ = maxHealth;
 
 //Speed
 speed_= [0,0];
-maxSpeed = 25;
+maxSpeed = 30;
 
 invincible_ = false;
 
-gravity_ = .75;
-acceleration_ = .75;
+gravity_ = .9;
+acceleration_ = .9;
 friction_ = .5;
-jumpHeight_ = -32.5;
+jumpHeight_ = -33;
 #endregion
 //Map the Keys
 keyboard_set_map(ord("D"), vk_right);
@@ -40,37 +40,37 @@ if (global.checkpointR == room) {
 	y = global.checkpointy;
 }
 
-#region ///Inventory
+#region ///pre-Inventory
 
-enum enu_itemStat {
-	name,
-	//cost,
-	//damgae,
-}
+//enum enu_itemStat {
+//	name,
+//	//cost,
+//	//damgae,
+//}
 
-enum enu_itemType {
-	letterA,
-	letterB,
-	letterC,
-	letterD,
-	letterE,
-	letterF,
-	letterG,
-}
+//enum enu_itemType {
+//	letterA,
+//	letterB,
+//	letterC,
+//	letterD,
+//	letterE,
+//	letterF,
+//	letterG,
+//}
 
-//Array that stores item information and defines item
-arr_items[enu_itemType.letterA, enu_itemStat.name] = "Letter A";
-arr_items[enu_itemType.letterB, enu_itemStat.name] = "Letter B";
-arr_items[enu_itemType.letterC, enu_itemStat.name] = "Letter C";
-arr_items[enu_itemType.letterD, enu_itemStat.name] = "Letter D";
-arr_items[enu_itemType.letterE, enu_itemStat.name] = "Letter E";
-arr_items[enu_itemType.letterF, enu_itemStat.name] = "Letter F";
-arr_items[enu_itemType.letterG, enu_itemStat.name] = "Letter G";
+////Array that stores item information and defines item
+//arr_items[enu_itemType.letterA, enu_itemStat.name] = "Letter A";
+//arr_items[enu_itemType.letterB, enu_itemStat.name] = "Letter B";
+//arr_items[enu_itemType.letterC, enu_itemStat.name] = "Letter C";
+//arr_items[enu_itemType.letterD, enu_itemStat.name] = "Letter D";
+//arr_items[enu_itemType.letterE, enu_itemStat.name] = "Letter E";
+//arr_items[enu_itemType.letterF, enu_itemStat.name] = "Letter F";
+//arr_items[enu_itemType.letterG, enu_itemStat.name] = "Letter G";
 
-//inventory slots
-max_inventorySlots = 10;
-for (var inventory = 0; inventory < max_inventorySlots; inventory ++) {
-	a_inventory[inventory] = -1; // -1 means inventory is empty	
+////inventory slots
+//max_inventorySlots = 10;
+//for (var inventory = 0; inventory < max_inventorySlots; inventory ++) {
+//	a_inventory[inventory] = -1; // -1 means inventory is empty	
 	
-}
+//}
 #endregion
