@@ -7,35 +7,45 @@ if health_ <= 0 {
 	y = global.checkpointy;
 	health_ = maxHealth;
 }
-
-//horizontal movement key press
-var hinput = keyboard_check(vk_right) - keyboard_check(vk_left);
-
-if hinput != 0 {
-	speed_[h] += hinput*acceleration_;
-	speed_[h] = clamp(speed_[h], -maxSpeed, maxSpeed);
-	var flipped = (mouse_x > x)*2-1;
-	image_speed = flipped*hinput*1; //animates in reverse or forward (no need for two sprites)
-} else {
-	speed_[h] = lerp(speed_[h], 0, friction_);
+//crouch
+if keyboard_check(ord("S")) {
+	sprite_index = spr_crouch;
+	image_index = 0;
 	image_speed = 0;
-	image_index = 0; //set postion to first frame when not moving
-}
-
-//Jump
-if !place_meeting(x, y+1, obj_solid) {
 	speed_[v] += gravity_; 
-	image_speed = 0;
-	image_index = 1; //image used when jumping
+	speed_[h] = lerp(speed_[h], 0, friction_);
+	audio_play_sound(aud_heroLand, 3, false);
+
 } else {
-	if keyboard_check_pressed(vk_up) {
-		speed_[v] = jumpHeight_;
-		xScale = image_xscale*.8; //skinny
-		yScale = image_yscale*1.4; //taller
-		audio_play_sound(aud_heroJump, 3, false);
+	//horizontal movement key press
+	var hinput = keyboard_check(vk_right) - keyboard_check(vk_left);
+
+	if hinput != 0 {
+		speed_[h] += hinput*acceleration_;
+		speed_[h] = clamp(speed_[h], -maxSpeed, maxSpeed);
+		var flipped = (mouse_x > x)*2-1;
+		image_speed = flipped*hinput*1; //animates in reverse or forward (no need for two sprites)
+	} else {
+		speed_[h] = lerp(speed_[h], 0, friction_);
+		sprite_index = spr_hero;
+		image_speed = 0;
+		image_index = 0; //set postion to first frame when not moving
+	}
+
+	//Jump
+	if !place_meeting(x, y+1, obj_solid) {
+		speed_[v] += gravity_; 
+		image_speed = 0;
+		image_index = 1; //image used when jumping
+	} else {
+		if keyboard_check_pressed(vk_up) {
+			speed_[v] = jumpHeight_;
+			xScale = image_xscale*.8; //skinny
+			yScale = image_yscale*1.4; //taller
+			audio_play_sound(aud_heroJump, 3, false);
+		}
 	}
 }
-
 //Move script
 move(speed_, 0);
 

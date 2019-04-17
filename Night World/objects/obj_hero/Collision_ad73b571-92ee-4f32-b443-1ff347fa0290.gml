@@ -21,3 +21,7 @@
 //pickup_item(item, itemInstanceID)
 #endregion
 
+
+health_ +=1; 
+	
+audio_play_sound(aud_pickUp, 3, false);

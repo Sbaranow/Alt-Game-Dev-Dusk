@@ -29,3 +29,4 @@ if place_meeting(x, y+speed_[v], obj_solid) {
 	}
 }
 y += speed_[v];
+
