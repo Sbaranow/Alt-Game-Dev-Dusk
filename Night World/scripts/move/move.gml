@@ -5,6 +5,7 @@
 var speed_ = argument0;
 var bounce_ = argument1; 
 
+
 /// Collisions x and y 
 if place_meeting(x+speed_[h], y, obj_solid) {
 	while !place_meeting(x+sign(speed_[h]), y, obj_solid) {

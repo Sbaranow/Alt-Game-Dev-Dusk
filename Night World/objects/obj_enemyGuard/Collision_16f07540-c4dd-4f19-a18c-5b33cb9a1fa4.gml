@@ -10,4 +10,4 @@ speed_[v] = lengthdir_y(6, dir);
 
 audio_play_sound(aud_enemyHit, 3, false);
 
-sprite_index = spr_flyingEnemy_Shoots;
+sprite_index = spr_enemyGuard_Hurt;
