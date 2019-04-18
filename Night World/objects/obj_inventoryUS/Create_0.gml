@@ -1,6 +1,7 @@
 /// @description 
 audio_stop_all();
 
+
 globalvar showInv; //display the inventory
 showInv = true;
 

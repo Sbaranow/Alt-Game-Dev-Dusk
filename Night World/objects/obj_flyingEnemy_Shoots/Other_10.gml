@@ -19,7 +19,7 @@ if instance_exists(obj_hero) {
 
 	//Switch to Attack
 	if distance_to_object(obj_hero) < 2000 {
-		enemyFire_bullet(obj_enemyBullet);
+		enemyFire_bullet(obj_enemyBullet, spr_flyingEnemy_Shoots);
 	}
 }
 

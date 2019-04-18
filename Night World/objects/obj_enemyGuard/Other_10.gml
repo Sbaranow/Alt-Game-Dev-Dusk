@@ -19,10 +19,6 @@ if instance_exists(obj_hero) {
 
 	//Switch to Attack
 	if distance_to_object(obj_hero) < 2000 {
-		enemyFire_bullet(obj_enemyBullet_Guard);
+		enemyFire_bullet(obj_enemyBullet_Guard, spr_enemyGuard);
 	}
 }
-
-//if distance_to_object(obj_hero) <= 3000 {
-//	move(speed_, 1);
-//}

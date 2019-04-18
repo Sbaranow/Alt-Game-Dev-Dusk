@@ -14,7 +14,6 @@ if keyboard_check(ord("S")) {
 	image_speed = 0;
 	speed_[v] += gravity_; 
 	speed_[h] = lerp(speed_[h], 0, friction_);
-	audio_play_sound(aud_heroLand, 3, false);
 
 } else {
 	//horizontal movement key press
