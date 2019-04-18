@@ -61,8 +61,3 @@ if place_meeting(x, y+1, obj_solid) and !place_meeting(x, yprevious+1, obj_solid
 // move back to normal scale
 xScale = lerp(xScale, image_xscale, .2);
 yScale = lerp(yScale, image_yscale, .2);
-
-
-
-
-
