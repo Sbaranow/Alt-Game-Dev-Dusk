@@ -96,25 +96,6 @@
             }
         },
         {
-            "Key": "04988ce7-caed-4764-816a-136e1b1a7c3f",
-            "Value": {
-                "id": "2470e91d-5cca-4e9a-baa4-e416be9a2f21",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "rooms\/rm_dusk2\/rm_dusk2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "0581f0c4-deb4-4e46-9c90-cf22782363a5",
             "Value": {
                 "id": "3feda0ba-2a66-425c-b1c1-186b45880873",
@@ -302,6 +283,25 @@
                 ],
                 "resourcePath": "views\/105019a6-99ec-43e2-87d2-029a6600271c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "12bb46c7-a375-4f0e-aa43-13d2d8a89f61",
+            "Value": {
+                "id": "1efed44c-0bf8-42f6-ae48-c490d79ebe51",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_dusk2V2\/rm_dusk2V2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
