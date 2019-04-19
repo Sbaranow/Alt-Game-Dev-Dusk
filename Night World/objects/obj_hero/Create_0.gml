@@ -10,10 +10,10 @@ maxSpeed = 30;
 
 invincible_ = false;
 
-gravity_ = .75;
+gravity_ = .6;
 acceleration_ = .9;
 friction_ = .5;
-jumpHeight_ = -45;
+jumpHeight_ = -50;
 #endregion
 //Map the Keys
 keyboard_set_map(ord("D"), vk_right);

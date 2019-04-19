@@ -2,7 +2,7 @@
 speed_ = [0,0];
 acceleration_ = 0.05;
 maxSpeed = 20;
-health_ = 2;
+health_ = 3;
 
 //bullet cooldown
 bulletCooldown = game_get_speed(gamespeed_fps); //speed bullets to launch

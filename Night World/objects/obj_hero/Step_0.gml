@@ -47,8 +47,21 @@ if keyboard_check(ord("S")) {
 	//jump moving platform
 	if !place_meeting(x, y+1, obj_movingPlatform) {
 		speed_[v] += gravity_; 
-		image_speed = 0;
-		image_index = 1; //image used when jumping
+		//image_speed = 0;
+		//image_index = 1; //image used when jumping
+	} else {
+		if keyboard_check_pressed(vk_up) {
+			speed_[v] = jumpHeight_;
+			xScale = image_xscale*.8; //skinny
+			yScale = image_yscale*1.4; //taller
+			audio_play_sound(aud_heroJump, 3, false);
+		}
+	}
+	//jump ghost platform
+	if !place_meeting(x, y+1, obj_ghostPlatform) {
+		speed_[v] += gravity_; 
+		//image_speed = 0;
+		//image_index = 1; //image used when jumping
 	} else {
 		if keyboard_check_pressed(vk_up) {
 			speed_[v] = jumpHeight_;
