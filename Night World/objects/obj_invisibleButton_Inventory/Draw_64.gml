@@ -5,7 +5,7 @@ var click = mouse_check_button_pressed(mb_left); //change this if issues with sh
 					 //pixels
 					 
 if (abs(mouse_x - x) < 75) and (abs(mouse_y - y) < 264.5) {
-	draw_sprite(spr_slotSelect, 0 , x-279.5, y-95);
+	//draw_sprite(spr_slotSelect, 0 , x-279.5, y-95);
 	//draw_set_color(c_white);
 	//draw_rectangle(x-264.5, y-75, x+264.5, y+75,0);
 	if (click) {

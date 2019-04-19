@@ -21,7 +21,7 @@ if (showInv) {
 	for (i = 0; i < maxItems; i += 1) {			//position x 
 		draw_sprite(spr_inventorySlot, 0, x1+400+(i*550), y2-109);
 		if (global.inventory[i] != -1) {
-			draw_sprite(spr_items, global.inventory[i], x1+400+(i*550), y2-109)	
+			draw_sprite(spr_items, global.inventory[i], x1+499+(i*550), y2-145)	
 		}
 	}
 }

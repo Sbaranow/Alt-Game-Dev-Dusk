@@ -11,6 +11,7 @@
         "96b6bc87-a4ee-4dcb-b8d3-deb4a1166a4a",
         "e530ede0-fa1b-4deb-999d-efc42d5ae7d1",
         "1f9847d5-bc37-4964-9211-1709574c348b",
+        "66fa0d75-3d58-4ed0-b75c-80491104034f",
         "d27010e8-b338-43f5-8857-e250ab0e5515",
         "64b77211-40b7-421e-a6d5-dd6a4a148a2f",
         "a673e98f-98a7-43e2-8cca-eddd21797f81",
@@ -27,7 +28,6 @@
         "b3ef0b0a-f920-4891-9c97-81b981465646",
         "e65e05a5-7531-4594-a68b-907ab02fdad8",
         "14569273-45a1-46dc-b6ce-0938d326cc2a",
-        "f43d3bd8-25c6-4a7e-91ac-2efe8c5e941c",
         "ef6fddce-1614-4ecd-be18-6e93be2de3cd",
         "aa44c57c-778d-4f5e-83c7-79be9ac3775f",
         "2038a529-f736-4373-bc59-38437fa43a22",
@@ -46,7 +46,8 @@
         "3d2eda44-13ee-4738-900c-ad5a0ed97fb4",
         "845eb1ee-1e59-4513-b8e0-4f558c1618c6",
         "33bd306a-7022-4b3d-aa5f-8349ddea30a3",
-        "e95abe39-048c-47dc-8bf0-ffd2981eb292"
+        "52ee08db-7505-44b1-a6eb-bb9a43598998",
+        "512f5084-0f97-4a99-9991-fc01d6de1fff"
     ],
     "filterType": "GMObject",
     "folderName": "objects",

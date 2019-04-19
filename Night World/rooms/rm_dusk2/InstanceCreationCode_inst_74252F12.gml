@@ -1,2 +1,2 @@
-image_index = 10;
-indexItem = 10;
+image_index = 19;
+indexItem = 19;
