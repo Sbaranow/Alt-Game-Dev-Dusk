@@ -1,4 +1,4 @@
-health_ = 3;
+health_ = 5;
 vsp = 0;
 gravity_ = 0.75; 
 walksp = 10;

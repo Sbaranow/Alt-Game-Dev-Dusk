@@ -2,10 +2,17 @@
 
 //check for death
 if health_ <= 0 {
-	//instance_destroy();
-	x = global.checkpointx;
-	y = global.checkpointy;
-	health_ = maxHealth;
+	if !instance_exists(obj_boss) {
+		x = global.checkpointx;
+		y = global.checkpointy;
+		health_ = maxHealth;
+	}
+	if instance_exists(obj_boss) {
+		instance_destroy();
+		room_restart();
+		score = 0; 
+	} 
+
 }
 //crouch
 if keyboard_check(ord("S")) {
@@ -93,3 +100,5 @@ if place_meeting(x, y+1, obj_solid) and !place_meeting(x, yprevious+1, obj_solid
 // move back to normal scale
 xScale = lerp(xScale, image_xscale, .2);
 yScale = lerp(yScale, image_yscale, .2);
+
+

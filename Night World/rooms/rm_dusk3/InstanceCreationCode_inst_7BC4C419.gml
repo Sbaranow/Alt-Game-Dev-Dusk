@@ -1,3 +1,3 @@
-x_position_from = 12600;
-x_position_to = 16600;
+x_position_from = 7702;
+x_position_to = 9494;
 hspeed_ = 5;

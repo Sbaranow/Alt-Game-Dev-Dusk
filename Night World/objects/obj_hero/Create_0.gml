@@ -20,6 +20,7 @@ keyboard_set_map(ord("D"), vk_right);
 keyboard_set_map(ord("A"), vk_left);
 keyboard_set_map(ord("W"), vk_up);
 keyboard_set_map(vk_space, vk_up);
+//keyboard_set_map(ord("S"), vk_down);
 
 // alarm bullet cooldown
 bulletCooldown = room_speed/6; //10fps

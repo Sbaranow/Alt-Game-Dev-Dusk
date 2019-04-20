@@ -2,7 +2,7 @@
 speed_ = [0,0];
 acceleration_ = 0.05;
 maxSpeed = 20;
-health_ = 15;
+health_ = 10;
 
 //bullet cooldown
 bulletCooldown = 120; //speed bullets to launch
